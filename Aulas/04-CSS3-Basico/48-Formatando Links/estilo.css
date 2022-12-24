@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+    padding: 6px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgb(0, 162, 255);
+}
+
+/*Links não Visitados*/
+a:link {
+    color: #b9c941;
+}
+
+/*Links Visitados*/
+a:visited {
+    color: #b9c941;
+}
+
+/*Links Hover (quando passa o cursor sobre o link)*/
+a:hover {
+    color: #fff;
+    background: rgb(5, 135, 211);
+}
+
+/*Links Ativos, quando clicado*/
+a:active {
+    color: #e4f371;
+}
